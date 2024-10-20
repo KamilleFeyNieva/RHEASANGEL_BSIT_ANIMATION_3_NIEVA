@@ -44,3 +44,16 @@ body {
     border-radius: 50%;
 }
 
+.hobbies  {
+    text-align: center;
+}
+
+.hobbies p {
+    text-align: start;
+}
+
+.card {
+    width: 20rem;
+    background: #1A4545;
+    color: #ffffff;
+}
