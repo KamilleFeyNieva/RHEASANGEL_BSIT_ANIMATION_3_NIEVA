@@ -1,0 +1,59 @@
+/* Pag BS ID # gamitin */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.card-body{
+    background: white;
+}
+
+#sidenav-bg {
+    background: #0c301c;
+}
+
+#footer {
+    background: #66e9a1;
+}
+
+.cart_img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+/* payment css */
+
+.btn-pay-online {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+.btn-pay-online:hover {
+    background-color: #218838;
+}
+
+.btn-cod {
+    background-color: #0a6d50;
+    color: white;
+    border: none;
+}
+
+.btn-cod:hover {
+    background-color: #17a2b8;
+}
+
+/* navbar */
+

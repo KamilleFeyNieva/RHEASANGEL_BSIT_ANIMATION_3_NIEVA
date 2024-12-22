@@ -1,0 +1,50 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Layout for full-height flexbox */
+html, body {
+    height: 100%;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-grow-1 {
+    flex: 1; /* Pushes the footer to the bottom */
+}
+
+#footer {
+    background: #66e9a1; /* Footer background */
+    text-align: center;
+    padding: 15px 0; /* Footer padding */
+}
+
+#footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #004d26; /* Text color */
+}
+
+#footer a {
+    text-decoration: none;
+    color: #004d26; /* Icon color */
+    margin: 0 10px;
+    transition: color 0.3s; /* Hover effect */
+}
+
+#footer a:hover {
+    color: #ffe066; /* Highlight color on hover */
+}
+
+.profile_img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
