@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #bbffd9;
+    overflow-x: hidden;
+}
+
+form {
+    width: 450px; /* Adjust width as needed */
+    margin: 50px auto; /* Center the form and add some top margin */
+    background-color: #ffffff; /* White background for the card */
+    padding: 20px; /* Add padding inside the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    position: relative; /* or absolute */
+    top: -50px; /* Use negative value to move it up */
+}
+
+h3{ /*welcome back kams*/
+    display: flex;
+    margin-right: 600px;
+}

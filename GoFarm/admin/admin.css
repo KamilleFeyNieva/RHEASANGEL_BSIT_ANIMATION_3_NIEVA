@@ -1,0 +1,40 @@
+/* Class = dot(.) if ID = use # */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.admin-img{
+    width: 100px;
+    object-fit: contain;
+}
+
+#insert-btn {
+    background: rgb(51, 216, 106);
+    border-color: rgb(51, 216, 106);
+}
+
+body {
+    background: rgb(184, 255, 184);
+}
+
+.navbar {
+    background: rgb(42, 180, 88);
+}
+
+.button a{
+    background: rgb(51, 216, 106);
+    border-color: rgb(51, 216, 106);
+}
+
+/* View products */
+.product_img{
+    width:10%;
+    object-fit:contain; 
+}
